@@ -1,0 +1,10 @@
+[
+  {
+    "Action": ["ec2:*"],
+    "Resource": ["*"]
+  },
+  {
+    "Action": ["s3:*"],
+    "Resource": ["*"]
+  }  
+]

@@ -1,0 +1,20 @@
+type Conversation @model 
+  @key(name: "conversationsByUser", fields: ["user", "createdAt"], queryField: "conversationsByUser"){
+  id: ID!
+  name: String!
+  user: String!
+  description: String
+  createdAt: String!
+  utterances: [Utterance] @connection(keyName: "byConversationId", fields: ["id"])
+}
+
+
+type Utterance @model 
+  @key(name: "byConversationId", fields: ["conversationId", "createdAt"]) {
+  id: ID!
+  text: String!
+  author: String!
+  conversationId: ID!
+  data: String 
+  createdAt: String!
+}
