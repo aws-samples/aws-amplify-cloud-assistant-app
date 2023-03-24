@@ -26,7 +26,7 @@ This project uses React framework and leverages AWS Amplify. This project was bo
 
 
 ## Step I - Initialize and deploy Amplify backend
-Initialize the Amplify project with: ```amplify init --app https://github.com/aws-samples/aws-amplify-cloud-assistant-app.git```. The command will: 
+Initialize the Amplify project with: ```amplify init --app https://gitlab.aws.dev/wbenhal/aws-assistant.git```. The command will: 
   - Clone the repository into local directory (i.e., where command is run)
   - Initialize Amplify project: Make sure to select Amplify profile created during ```amplify configure``` step. 
   - Deploy the application backend (Auth, Api, Lambda, Hosting)
