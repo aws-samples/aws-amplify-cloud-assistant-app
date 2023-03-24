@@ -107,12 +107,12 @@ After the command has completed, open the repository directory in your favorite 
 > Are there any instances deployed to a public subnet?
 > Terminate these instances (Note: Make sure to run this command AFTER a previous command has already identified some instances such as any of the commands above)
 ```
-#### Region Switch Commands 
+<!-- #### Region Switch Commands 
 ```
 > Switch region to ohio
 > List all ec2 instances
 > Switch back region to Virginia
-```
+``` -->
 #### Security Group Rules Commands
 ``` 
 > Are there any wide open security group rules? (Note: if this command returns no rules, edit the default security group through the AWS console, and introduce some rules with access from 0.0.0.0 on a couple of ports (e.g. HTTP or SSH), then try the command again)
