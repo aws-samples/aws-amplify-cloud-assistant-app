@@ -82,9 +82,9 @@ After the command has completed, open the repository directory in your favorite 
     - Due to the privileges given to authenticated users, a confirmation code will not be sent
     - Click "Back to Sign In", and follow next step to confirm user
 6. To confirm the user, navigate to the Cognito service on the AWS console
-    - Select "Manage User Pools", and select the assistant user pool
-    - Navigate to "User and groups" from the left-side menu, and select the new user (should have an "UNCONFIRMED" status)
-    - Click on "Confirm user" button towards the top of the page
+    - Select "User Pools", and select the assistant user pool
+    - Navigate to "Users" tab, and select the new user (should have an "Unconfirmed" status)
+    - Click on "Actions" button at the top of the page, then "Confirm account", and confirm
 7. Sign in to the application
     - Sign in with your previously created username and password
     - You can choose to configure account recovery or skip it  

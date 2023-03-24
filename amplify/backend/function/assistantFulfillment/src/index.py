@@ -309,7 +309,7 @@ def createInstance(intent_request):
 
 
 def terminateInstances(intent_request):
-    logger.info('Received a request to create an EC2 instance')
+    logger.info('Received a request to terminate an EC2 instance')
     
     # Build config and create ec2 resource
     config = buildConfig(intent_request)
@@ -347,7 +347,7 @@ def changeRegion(intent_request):
     sessionAttributes = updateSessionAttributes(intent_request, 'region', region)
     
     # Prepare resulting message
-    message = "AWS Configurator is now operating in the {} region".format(region)
+    message = "Assistant is now operating in the {} region".format(region)
     intentName = intent_request['sessionState']['intent']['name']
 
     return prepareResponse(intentName, sessionAttributes, message)    
@@ -428,7 +428,7 @@ def listS3Buckets(intent_request):
     
     
 def searchS3(intent_request):
-    logger.info('Received a request to list all S3 buckets')
+    logger.info('Received a request to search in S3')
     
     # Build config and create s3 resource
     config = buildConfig(intent_request)
