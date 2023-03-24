@@ -45,7 +45,7 @@ After the command has completed, open the repository directory in your favorite 
     - Set the session timeout to 5 minutes
 3. Build the draft version of the bot
     - Select the newly created bot, and navigate to the "Intents" section of the "Draft version"
-    - Select the "Build" button at the bottom and wait for the build to finish
+    - Select the "Build" button at the top and wait for the build to finish
 4. Create a new bot version
     - Navigate to the "Bot versions" section from the left-hand menu
     - Click "Create version", and push the "Create" button
@@ -62,8 +62,8 @@ After the command has completed, open the repository directory in your favorite 
     - Locate the Bot ID from the bot page
     - Locate the Bot Alias ID from the Alias page
 2. Edit the App.js under the src folder of the repository
-    - Update the bot ID (line 45)
-    - Update the bot alias ID (line 46)
+    - Update the bot ID (line 36)
+    - Update the bot alias ID (line 37)
     - Update the region if bot was not deployed to us-east-1
 3. Allow the Cognito Auth role access to the Lex bot
     - Navigate to the "Roles" section of the IAM console
