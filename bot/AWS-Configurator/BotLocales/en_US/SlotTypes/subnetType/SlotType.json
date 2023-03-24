@@ -1,1 +1,0 @@
-{"name":"subnetType","identifier":"AU5DQBZH1I","description":null,"slotTypeValues":[{"synonyms":[{"value":"private"}],"sampleValue":{"value":"private"}},{"synonyms":[{"value":"public"}],"sampleValue":{"value":"public"}}],"parentSlotTypeSignature":null,"valueSelectionSetting":{"resolutionStrategy":"TOP_RESOLUTION","regexFilter":null}}
