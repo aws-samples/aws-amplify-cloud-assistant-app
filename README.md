@@ -100,9 +100,9 @@ After the command has completed, open the repository directory in your favorite 
 ```
 > Can you show me all my ec2 instances?
 > Launch 1 linux instance on t2 micro
-> Launch 2 windows instances on t3 micro
+> Launch 2 red hat instances on t3 micro
 > List ec2 instances
-> Find all windows instances
+> Find all red hat instances
 > Find all instances running on t2 micro
 > Are there any instances deployed to a public subnet?
 > Terminate these instances (Note: Make sure to run this command AFTER a previous command has already identified some instances such as any of the commands above)
